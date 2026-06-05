@@ -1,6 +1,7 @@
 import streamlit as st
 import pickle
 import pandas as pd
+import sklearn
 
 # Load Model
 with open("Linear_regression_california.pkl", "rb") as f:
