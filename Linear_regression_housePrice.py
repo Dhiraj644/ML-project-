@@ -100,10 +100,10 @@ if st.button("Predict House Value"):
     )
 
     prediction = model.predict(input_data)
-    house_price = prediction[0] * 100000
+    house_price =
 
     st.success(
-    f" Predicted House Value: ${house_price:,.2f}"
+    f" Predicted House Value: ${house_price}"
 )
 
     st.info(
